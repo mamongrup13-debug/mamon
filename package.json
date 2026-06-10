@@ -6,7 +6,11 @@
     "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start --port 3001",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy:plesk": "bash deploy/plesk-post-deploy.sh"
+  },
+  "engines": {
+    "node": ">=18.18.0"
   },
   "dependencies": {
     "clsx": "^2.1.1",

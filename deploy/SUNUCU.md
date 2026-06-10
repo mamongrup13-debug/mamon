@@ -1,42 +1,40 @@
-# Sunucu: 50.114.185.221
+# Sunucu: 50.114.185.221 (Plesk)
 
-## Hızlı kurulum
+**Plesk kullanıyorsanız:** [deploy/PLESK.md](./PLESK.md) dosyasını takip edin.
+
+## Hızlı kurulum (SSH erişimi varsa)
 
 ```bash
-git clone <repo-url> mamon
+git clone https://github.com/mamongrup13-debug/mamon.git
 cd mamon
-
-cat > .env.local << 'EOF'
-NEXT_PUBLIC_SITE_URL=http://50.114.185.221:3001
-NEXT_PUBLIC_SITE_NAME=Mamon
-ADMIN_PASSWORD=BURAYA_GUCLU_SIFRE
-PORT=3001
-EOF
-
-npm ci
-npm run build
-chmod 664 src/data/site-content.json
-
-npm install -g pm2
-pm2 start ecosystem.config.cjs
-pm2 save
-pm2 startup
+bash deploy/remote-install.sh
 ```
 
-Site: http://50.114.185.221:3001  
-Admin: http://50.114.185.221:3001/admin/giris
+`.env.local` içinde `ADMIN_PASSWORD` ve `DB_PASSWORD` değiştirin.
 
-## Firewall
-
-Port 3001 dışarıya açık olmalı:
+## Manuel kurulum
 
 ```bash
-sudo ufw allow 3001/tcp
+cp deploy/plesk-env.example .env.local
+nano .env.local
+npm ci && npm run build
+pm2 start ecosystem.config.cjs && pm2 save
 ```
 
-## Domain (mamon.com.tr) bağlandığında
+## Nginx (mamon.com.tr)
 
-1. DNS A kaydı → `50.114.185.221`
-2. Nginx + SSL kurulumu (README.md)
-3. `.env.local` güncelle: `NEXT_PUBLIC_SITE_URL=https://mamon.com.tr`
-4. `npm run build` ve `pm2 restart mamon`
+`deploy/nginx-plesk-directives.conf` → Plesk → Apache & nginx → Additional nginx directives
+
+## URL'ler
+
+| | |
+|---|---|
+| Site | `https://mamon.com.tr/tr` |
+| Admin | `https://mamon.com.tr/admin/giris` |
+| Repo | `https://github.com/mamongrup13-debug/mamon.git` |
+
+## SSH kapalıysa
+
+VPS konsolundan: `bash deploy/enable-ssh-localhost.sh`
+
+SSH anahtar satırı: `deploy/SSH-ANAHTAR.txt`

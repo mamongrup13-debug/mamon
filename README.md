@@ -17,21 +17,23 @@ npm install
 npm run dev
 ```
 
-Site: http://localhost:3001  
+Site: http://localhost:3001/tr  
 Admin: http://localhost:3001/admin/giris (şifre: `mamon2026`)
+
+**Diller:** `tr`, `en`, `de`, `ru`, `ar`, `zh` — örn. `/en/hizmetler`
 
 ## Sayfalar
 
 | URL | Açıklama |
 |-----|----------|
-| `/` | Ana sayfa |
-| `/hakkimizda` | Kurumsal hikaye |
-| `/hizmetler` | 3 ana hizmet alanı |
-| `/hizmetler/emlak` | Emlak detay |
-| `/hizmetler/insaat` | İnşaat detay |
-| `/hizmetler/turizm` | Turizm detay |
-| `/projeler` | Proje portföyü |
-| `/iletisim` | İletişim formu |
+| `/tr` | Ana sayfa |
+| `/tr/hakkimizda` | Kurumsal hikaye |
+| `/tr/hizmetler` | 3 ana hizmet alanı |
+| `/tr/hizmetler/emlak` | Emlak detay |
+| `/tr/hizmetler/insaat` | İnşaat detay |
+| `/tr/hizmetler/turizm` | Turizm detay |
+| `/tr/projeler` | Proje portföyü |
+| `/tr/iletisim` | İletişim formu |
 
 ## Admin
 
@@ -47,12 +49,12 @@ Admin: http://localhost:3001/admin/giris (şifre: `mamon2026`)
 
 ```powershell
 cd c:\laragon\www\mamon
-git init
 git add .
-git commit -m "Mamon kurumsal site ilk sürüm"
-git remote add origin https://github.com/KULLANICI/mamon.git
-git push -u origin main
+git commit -m "mesaj"
+git push origin main
 ```
+
+Repo: `https://github.com/mamongrup13-debug/mamon.git` (hesap: **mamongrup13-debug**)
 
 `.env.local` ve `node_modules` git'e **dahil edilmez** (`.gitignore`).
 
@@ -65,14 +67,20 @@ cp .env.example .env.local
 nano .env.local
 ```
 
-**Bu proje için sunucu (`50.114.185.221`) `.env.local` örneği:**
+Sunucuda `deploy/plesk-env.example` → `.env.local` kopyalayın.
 
 ```env
-NEXT_PUBLIC_SITE_URL=http://50.114.185.221:3001
+NEXT_PUBLIC_SITE_URL=https://mamon.com.tr
 NEXT_PUBLIC_SITE_NAME=Mamon
 ADMIN_PASSWORD=guclu-bir-sifre-belirleyin
 PORT=3001
+DB_HOST=localhost
+DB_NAME=mamontravel13_kurumsal
+DB_USER=mamonuse
+DB_PASSWORD=veritabani-sifresi
 ```
+
+**Plesk deploy:** [deploy/PLESK.md](deploy/PLESK.md)
 
 | Değişken | Açıklama |
 |----------|----------|
