@@ -1,0 +1,475 @@
+{
+  "settings": {
+    "companyName": "Mamon",
+    "domain": "mamon.com.tr",
+    "foundedYear": 2010,
+    "logoText": "MAMON",
+    "primaryPhone": "+90 532 397 79 57",
+    "primaryEmail": "info@mamon.com.tr"
+  },
+  "navigation": [
+    {
+      "label": "Главная",
+      "href": "/"
+    },
+    {
+      "label": "О нас",
+      "href": "/hakkimizda"
+    },
+    {
+      "label": "Услуги",
+      "href": "/hizmetler"
+    },
+    {
+      "label": "Проекты",
+      "href": "/projeler"
+    },
+    {
+      "label": "Контакты",
+      "href": "/iletisim"
+    }
+  ],
+  "globalSeo": {
+    "title": "Mamon | Недвижимость, строительство и туризм",
+    "description": "Ваш надёжный партнёр в недвижимости, строительстве и туризме с 2010 года. mamon.com.tr",
+    "keywords": [
+      "mamon",
+      "недвижимость",
+      "строительство",
+      "туризм",
+      "горизонтальная архитектура",
+      "недвижимость",
+      "mamon.com.tr"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Главная",
+      "seo": {
+        "title": "Mamon | Решения в недвижимости, строительстве и туризме",
+        "description": "Корпоративные услуги в недвижимости, строительстве и туризме с 2010 года. Доверие, качество и устойчивая ценность."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "enabled": true
+        },
+        {
+          "id": "about-preview",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hakkimizda",
+      "title": "О нас",
+      "seo": {
+        "title": "О нас | Mamon",
+        "description": "Надёжный корпоративный сервис с 2010 года."
+      },
+      "sections": [
+        {
+          "id": "about-full",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hizmetler",
+      "title": "Услуги",
+      "seo": {
+        "title": "Наши услуги | Mamon",
+        "description": "Консалтинг, строительные проекты и туристические инвестиции — три ключевых направления Mamon."
+      },
+      "sections": [
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "projeler",
+      "title": "Проекты",
+      "seo": {
+        "title": "Наши проекты | Mamon",
+        "description": "Завершённые и текущие проекты в недвижимости, строительстве и туризме."
+      },
+      "sections": [
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "iletisim",
+      "title": "Контакты",
+      "seo": {
+        "title": "Контакты | Mamon",
+        "description": "Свяжитесь с Mamon. Наша команда готова к вашим проектам."
+      },
+      "sections": [
+        {
+          "id": "contact",
+          "type": "contact",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "Ваш надёжный партнёр с 2010 года",
+      "title": "Корпоративное превосходство в\nнедвижимости, строительстве и туризме",
+      "subtitle": "Мы создаём устойчивую ценность через горизонтальную архитектуру, инвестиции и туризм.",
+      "ctaPrimary": {
+        "label": "Наши услуги",
+        "href": "/hizmetler"
+      },
+      "ctaSecondary": {
+        "label": "Связаться",
+        "href": "/iletisim"
+      },
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "Лет опыта"
+        },
+        {
+          "value": "120+",
+          "label": "Завершённых проектов"
+        },
+        {
+          "value": "3",
+          "label": "Основных направлений"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Корпоративная идентичность",
+      "title": "Долгосрочная ценность на основе доверия",
+      "paragraphs": [
+        "Mamon — устоявшаяся компания с 2010 года. Прозрачность, качество и удовлетворённость клиентов — в каждом проекте.",
+        "Горизонтальная архитектура и устойчивые пространства; недвижимость на mamonestate.com, туризм на rezervasyonyap.com.tr, rezervasyonyap.tr и reservationinturkey.com.",
+        "Mamon растёт как надёжный бренд — мы строим долгосрочные отношения."
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=900&fit=crop",
+      "highlights": [
+        {
+          "title": "С 2010 года",
+          "description": "Устойчивый рост в отрасли"
+        },
+        {
+          "title": "Мультидисциплинарность",
+          "description": "Интеграция недвижимости, строительства и туризма"
+        },
+        {
+          "title": "Горизонтальная архитектура",
+          "description": "Современные малоэтажные пространства"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Наша экспертиза",
+      "title": "Три столпа, одно доверие",
+      "subtitle": "Интегрированные услуги для ваших проектов.",
+      "items": [
+        {
+          "slug": "emlak",
+          "title": "Недвижимость",
+          "shortDescription": "Стратегический консалтинг и управление инвестициями.",
+          "description": "Консалтинг по жилой, коммерческой недвижимости и земле. www.mamonestate.com.",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+          "icon": "building-2",
+          "features": [
+            "Консалтинг по недвижимости",
+            "Инвестиционный анализ",
+            "Управление портфелем",
+            "Оценка"
+          ],
+          "websites": [
+            {
+              "label": "mamonestate.com",
+              "href": "https://www.mamonestate.com"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "slug": "insaat",
+          "title": "Строительство",
+          "shortDescription": "Современные устойчивые пространства с горизонтальной архитектурой.",
+          "description": "Виллы, резиденции и смешанные проекты — низкая плотность, природа, качество жизни.",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+          "icon": "home",
+          "features": [
+            "Проекты горизонтальной архитектуры",
+            "Виллы и резиденции",
+            "Строительство под ключ",
+            "Управление проектами"
+          ],
+          "order": 2
+        },
+        {
+          "slug": "turizm",
+          "title": "Туризм",
+          "shortDescription": "Экспертиза в туристических инвестициях.",
+          "description": "Консалтинг и развитие туристических объектов. Бронирование на rezervasyonyap.com.tr, rezervasyonyap.tr и reservationinturkey.com.",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "icon": "palmtree",
+          "features": [
+            "Туристический консалтинг",
+            "Развитие объектов",
+            "Платформы бронирования",
+            "Региональный анализ"
+          ],
+          "websites": [
+            {
+              "label": "rezervasyonyap.com.tr",
+              "href": "https://www.rezervasyonyap.com.tr"
+            },
+            {
+              "label": "rezervasyonyap.tr",
+              "href": "https://www.rezervasyonyap.tr"
+            },
+            {
+              "label": "reservationinturkey.com",
+              "href": "https://www.reservationinturkey.com"
+            }
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Mamon в цифрах",
+      "title": "Доверие в цифрах",
+      "items": [
+        {
+          "value": "2010",
+          "label": "Год основания"
+        },
+        {
+          "value": "100",
+          "label": "Завершённых проектов",
+          "suffix": "+"
+        },
+        {
+          "value": "4",
+          "label": "Основных секторов"
+        },
+        {
+          "value": "15000",
+          "label": "Довольных клиентов",
+          "suffix": "+"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Наши референсы",
+      "title": "Избранные проекты",
+      "subtitle": "Избранные проекты в недвижимости, строительстве и туризме.",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=900&fit=crop",
+      "items": [
+        {
+          "id": "p1",
+          "title": "Mamon Residence",
+          "category": "insaat",
+          "location": "Стамбул, Турция",
+          "year": "2024",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+          "description": "Комплекс вилл с горизонтальной архитектурой.",
+          "featured": true
+        },
+        {
+          "id": "p2",
+          "title": "Ege Turizm Kompleksi",
+          "category": "turizm",
+          "location": "Мугла, Турция",
+          "year": "2023",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+          "description": "Туристический комплекс с бутик-отелем.",
+          "featured": true
+        },
+        {
+          "id": "p3",
+          "title": "Merkez Plaza",
+          "category": "emlak",
+          "location": "Анкара, Турция",
+          "year": "2022",
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
+          "description": "Коммерческая недвижимость класса A.",
+          "featured": true
+        },
+        {
+          "id": "p4",
+          "title": "Yeşil Vadi Villaları",
+          "category": "insaat",
+          "location": "Бурса, Турция",
+          "year": "2021",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+          "description": "Малоэтажный жилой проект в природе.",
+          "featured": false
+        },
+        {
+          "id": "p5",
+          "title": "Akdeniz Resort",
+          "category": "turizm",
+          "location": "Анталья, Турция",
+          "year": "2020",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "description": "Пятизвёздочный отель и спа.",
+          "featured": false
+        },
+        {
+          "id": "p6",
+          "title": "Levent Ofis Kulesi",
+          "category": "emlak",
+          "location": "Стамбул, Турция",
+          "year": "2019",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+          "description": "Аренда и управление премиальными офисами.",
+          "featured": false
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Почему Mamon?",
+      "title": "Корпоративное доверие и глубина",
+      "subtitle": "Более 15 лет опыта — качество, прозрачность и долгосрочная ценность.",
+      "items": [
+        {
+          "icon": "shield-check",
+          "title": "Надёжность",
+          "description": "Доверие через репутацию с 2010 года."
+        },
+        {
+          "icon": "layers",
+          "title": "Интегрированный сервис",
+          "description": "Целостный подход под одной крышей."
+        },
+        {
+          "icon": "compass",
+          "title": "Экспертиза горизонтальной архитектуры",
+          "description": "Современные пространства в гармонии с природой."
+        },
+        {
+          "icon": "users",
+          "title": "Команда экспертов",
+          "description": "Мультидисциплинарная команда профессионалов."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Ориентация на ценность",
+          "description": "Стратегии долгосрочной измеримой отдачи."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Ориентация на клиента",
+          "description": "Персональные решения и прозрачная коммуникация."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Давайте реализуем ваш проект вместе",
+      "subtitle": "Познакомьтесь с нашей командой.",
+      "buttonLabel": "Бесплатная консультация",
+      "buttonHref": "/iletisim",
+      "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=600&fit=crop"
+    },
+    "contact": {
+      "address": "Кесиккапы, ул. Чарши, №254, Фетхие/Мугла",
+      "phone": "+90 532 397 79 57",
+      "email": "info@mamon.com.tr",
+      "mapEmbed": "",
+      "workingHours": "Понедельник – пятница: 09:00 – 18:00"
+    }
+  },
+  "footer": {
+    "tagline": "Ваш надёжный партнёр с 2010 года.",
+    "copyright": "© 2026 Mamon. Все права защищены.",
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  }
+}

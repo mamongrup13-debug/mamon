@@ -1,0 +1,475 @@
+{
+  "settings": {
+    "companyName": "Mamon",
+    "domain": "mamon.com.tr",
+    "foundedYear": 2010,
+    "logoText": "MAMON",
+    "primaryPhone": "+90 532 397 79 57",
+    "primaryEmail": "info@mamon.com.tr"
+  },
+  "navigation": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "关于我们",
+      "href": "/hakkimizda"
+    },
+    {
+      "label": "服务",
+      "href": "/hizmetler"
+    },
+    {
+      "label": "项目",
+      "href": "/projeler"
+    },
+    {
+      "label": "联系我们",
+      "href": "/iletisim"
+    }
+  ],
+  "globalSeo": {
+    "title": "Mamon | 房地产、建筑与旅游",
+    "description": "自2010年以来您可信赖的房地产、建筑与旅游合作伙伴。mamon.com.tr",
+    "keywords": [
+      "mamon",
+      "房地产",
+      "建筑",
+      "旅游",
+      "水平建筑",
+      "房地产",
+      "mamon.com.tr"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "首页",
+      "seo": {
+        "title": "Mamon | 房地产、建筑与旅游解决方案",
+        "description": "自2010年提供企业服务。信任、质量与可持续价值。"
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "enabled": true
+        },
+        {
+          "id": "about-preview",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hakkimizda",
+      "title": "关于我们",
+      "seo": {
+        "title": "关于我们 | Mamon",
+        "description": "自2010年值得信赖的企业服务。"
+      },
+      "sections": [
+        {
+          "id": "about-full",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hizmetler",
+      "title": "服务",
+      "seo": {
+        "title": "我们的服务 | Mamon",
+        "description": "房地产咨询、建筑项目与旅游投资——三大核心业务。"
+      },
+      "sections": [
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "projeler",
+      "title": "项目",
+      "seo": {
+        "title": "我们的项目 | Mamon",
+        "description": "探索我们已完成和进行中的项目。"
+      },
+      "sections": [
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "iletisim",
+      "title": "联系我们",
+      "seo": {
+        "title": "联系我们 | Mamon",
+        "description": "联系Mamon，专家团队随时为您服务。"
+      },
+      "sections": [
+        {
+          "id": "contact",
+          "type": "contact",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "自2010年以来您可信赖的合作伙伴",
+      "title": "房地产、建筑与旅游领域的\n卓越企业",
+      "subtitle": "通过水平建筑、战略投资与旅游专长创造可持续价值。",
+      "ctaPrimary": {
+        "label": "探索我们的服务",
+        "href": "/hizmetler"
+      },
+      "ctaSecondary": {
+        "label": "联系我们",
+        "href": "/iletisim"
+      },
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "年经验"
+        },
+        {
+          "value": "120+",
+          "label": "完成项目"
+        },
+        {
+          "value": "3",
+          "label": "核心服务领域"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "企业形象",
+      "title": "以信任创造长期价值",
+      "paragraphs": [
+        "Mamon自2010年深耕房地产、建筑与旅游。每个项目都注重透明、质量与客户满意。",
+        "水平建筑设计可持续空间；房地产见mamonestate.com，旅游见rezervasyonyap.com.tr、rezervasyonyap.tr和reservationinturkey.com。",
+        "Mamon持续增长为值得信赖的品牌——我们致力于长期合作关系。"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=900&fit=crop",
+      "highlights": [
+        {
+          "title": "自2010年",
+          "description": "行业深度可持续发展"
+        },
+        {
+          "title": "多学科",
+          "description": "房地产、建筑与旅游一体化"
+        },
+        {
+          "title": "水平建筑",
+          "description": "现代低密度生活空间"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "专业领域",
+      "title": "三大支柱，一份信任",
+      "subtitle": "跨领域整合服务为您的项目增值。",
+      "items": [
+        {
+          "slug": "emlak",
+          "title": "房地产",
+          "shortDescription": "战略房地产咨询与投资管理。",
+          "description": "住宅、商业及土地投资全面咨询。房地产业务见www.mamonestate.com。",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+          "icon": "building-2",
+          "features": [
+            "房地产咨询",
+            "投资分析",
+            "投资组合管理",
+            "估值服务"
+          ],
+          "websites": [
+            {
+              "label": "mamonestate.com",
+              "href": "https://www.mamonestate.com"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "slug": "insaat",
+          "title": "建筑",
+          "shortDescription": "水平建筑的现代可持续生活空间。",
+          "description": "别墅、住宅及混合用途项目——低密度、亲近自然。",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+          "icon": "home",
+          "features": [
+            "水平建筑项目",
+            "别墅与住宅",
+            "交钥匙工程",
+            "项目管理"
+          ],
+          "order": 2
+        },
+        {
+          "slug": "turizm",
+          "title": "旅游",
+          "shortDescription": "旅游投资与酒店项目专长。",
+          "description": "旅游设施、精品酒店与度假住宅投资咨询。预订见rezervasyonyap.com.tr等。",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "icon": "palmtree",
+          "features": [
+            "旅游投资咨询",
+            "设施开发",
+            "在线预订平台",
+            "区域分析"
+          ],
+          "websites": [
+            {
+              "label": "rezervasyonyap.com.tr",
+              "href": "https://www.rezervasyonyap.com.tr"
+            },
+            {
+              "label": "rezervasyonyap.tr",
+              "href": "https://www.rezervasyonyap.tr"
+            },
+            {
+              "label": "reservationinturkey.com",
+              "href": "https://www.reservationinturkey.com"
+            }
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Mamon数据",
+      "title": "数字见证信任",
+      "items": [
+        {
+          "value": "2010",
+          "label": "成立年份"
+        },
+        {
+          "value": "100",
+          "label": "完成项目",
+          "suffix": "+"
+        },
+        {
+          "value": "4",
+          "label": "核心行业"
+        },
+        {
+          "value": "15000",
+          "label": "满意客户",
+          "suffix": "+"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "参考案例",
+      "title": "精选项目",
+      "subtitle": "房地产、建筑与旅游领域的精选项目。",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=900&fit=crop",
+      "items": [
+        {
+          "id": "p1",
+          "title": "Mamon Residence",
+          "category": "insaat",
+          "location": "伊斯坦布尔，土耳其",
+          "year": "2024",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+          "description": "水平建筑奢华别墅综合体。",
+          "featured": true
+        },
+        {
+          "id": "p2",
+          "title": "Ege Turizm Kompleksi",
+          "category": "turizm",
+          "location": "穆拉，土耳其",
+          "year": "2023",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+          "description": "精品酒店与度假住宅一体化旅游项目。",
+          "featured": true
+        },
+        {
+          "id": "p3",
+          "title": "Merkez Plaza",
+          "category": "emlak",
+          "location": "安卡拉，土耳其",
+          "year": "2022",
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
+          "description": "A级商业地产投资与管理项目。",
+          "featured": true
+        },
+        {
+          "id": "p4",
+          "title": "Yeşil Vadi Villaları",
+          "category": "insaat",
+          "location": "布尔萨，土耳其",
+          "year": "2021",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+          "description": "与自然融合的低密度住宅项目。",
+          "featured": false
+        },
+        {
+          "id": "p5",
+          "title": "Akdeniz Resort",
+          "category": "turizm",
+          "location": "安塔利亚，土耳其",
+          "year": "2020",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "description": "五星级酒店与水疗综合体。",
+          "featured": false
+        },
+        {
+          "id": "p6",
+          "title": "Levent Ofis Kulesi",
+          "category": "emlak",
+          "location": "伊斯坦布尔，土耳其",
+          "year": "2019",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+          "description": "高端办公空间租赁与管理。",
+          "featured": false
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "为什么选择Mamon？",
+      "title": "企业信任，行业深度",
+      "subtitle": "逾15年经验，每个项目都提供质量、透明与长期价值。",
+      "items": [
+        {
+          "icon": "shield-check",
+          "title": "可靠性",
+          "description": "自2010年以来以声誉建立信任。"
+        },
+        {
+          "icon": "layers",
+          "title": "整合服务",
+          "description": "一站式整合房地产、建筑与旅游。"
+        },
+        {
+          "icon": "compass",
+          "title": "水平建筑专长",
+          "description": "设计与自然和谐共处的现代空间。"
+        },
+        {
+          "icon": "users",
+          "title": "专家团队",
+          "description": "多学科资深专业团队。"
+        },
+        {
+          "icon": "trending-up",
+          "title": "价值导向",
+          "description": "长期可衡量回报策略。"
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "以客户为中心",
+          "description": "个性化方案与透明沟通。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "让我们一起实现您的项目",
+      "subtitle": "结识我们的专家团队。",
+      "buttonLabel": "免费咨询",
+      "buttonHref": "/iletisim",
+      "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=600&fit=crop"
+    },
+    "contact": {
+      "address": "费特希耶/穆拉，Kesikkapı区，Çarşı街254号",
+      "phone": "+90 532 397 79 57",
+      "email": "info@mamon.com.tr",
+      "mapEmbed": "",
+      "workingHours": "周一至周五：09:00 – 18:00"
+    }
+  },
+  "footer": {
+    "tagline": "自2010年以来您可信赖的合作伙伴。",
+    "copyright": "© 2026 Mamon. 版权所有。",
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  }
+}

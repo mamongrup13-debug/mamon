@@ -1,0 +1,475 @@
+{
+  "settings": {
+    "companyName": "Mamon",
+    "domain": "mamon.com.tr",
+    "foundedYear": 2010,
+    "logoText": "MAMON",
+    "primaryPhone": "+90 532 397 79 57",
+    "primaryEmail": "info@mamon.com.tr"
+  },
+  "navigation": [
+    {
+      "label": "الرئيسية",
+      "href": "/"
+    },
+    {
+      "label": "من نحن",
+      "href": "/hakkimizda"
+    },
+    {
+      "label": "الخدمات",
+      "href": "/hizmetler"
+    },
+    {
+      "label": "المشاريع",
+      "href": "/projeler"
+    },
+    {
+      "label": "اتصل بنا",
+      "href": "/iletisim"
+    }
+  ],
+  "globalSeo": {
+    "title": "مامون | العقارات والبناء والسياحة",
+    "description": "شريككم الموثوق في العقارات والبناء والسياحة منذ 2010. mamon.com.tr",
+    "keywords": [
+      "mamon",
+      "عقارات",
+      "بناء",
+      "سياحة",
+      "العمارة الأفقية",
+      "عقارات",
+      "mamon.com.tr"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "الرئيسية",
+      "seo": {
+        "title": "مامون | حلول العقارات والبناء والسياحة",
+        "description": "خدمات مؤسسية منذ 2010. الثقة والجودة والقيمة المستدامة."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "enabled": true
+        },
+        {
+          "id": "about-preview",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hakkimizda",
+      "title": "من نحن",
+      "seo": {
+        "title": "من نحن | مامون",
+        "description": "خدمة مؤسسية موثوقة منذ 2010."
+      },
+      "sections": [
+        {
+          "id": "about-full",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hizmetler",
+      "title": "الخدمات",
+      "seo": {
+        "title": "خدماتنا | مامون",
+        "description": "استشارات عقارية ومشاريع بناء واستثمارات سياحية — ثلاثة مجالات رئيسية."
+      },
+      "sections": [
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "projeler",
+      "title": "المشاريع",
+      "seo": {
+        "title": "مشاريعنا | مامون",
+        "description": "اكتشف مشاريعنا المكتملة والجارية."
+      },
+      "sections": [
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "iletisim",
+      "title": "اتصل بنا",
+      "seo": {
+        "title": "اتصل بنا | مامون",
+        "description": "تواصل مع مامون. فريقنا جاهز لمشاريعكم."
+      },
+      "sections": [
+        {
+          "id": "contact",
+          "type": "contact",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "شريككم الموثوق منذ 2010",
+      "title": "التميز المؤسسي في\nالعقارات والبناء والسياحة",
+      "subtitle": "نخلق قيمة مستدامة عبر العمارة الأفقية والاستثمارات والسياحة.",
+      "ctaPrimary": {
+        "label": "اكتشف خدماتنا",
+        "href": "/hizmetler"
+      },
+      "ctaSecondary": {
+        "label": "اتصل بنا",
+        "href": "/iletisim"
+      },
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "سنوات الخبرة"
+        },
+        {
+          "value": "120+",
+          "label": "مشاريع مكتملة"
+        },
+        {
+          "value": "3",
+          "label": "مجالات الخدمة"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "الهوية المؤسسية",
+      "title": "بناء قيمة طويلة الأمد على الثقة",
+      "paragraphs": [
+        "مامون مجموعة راسخة منذ 2010. الشفافية والجودة ورضا العملاء في كل مشروع.",
+        "عمارة أفقية ومساحات مستدامة؛ العقارات عبر mamonestate.com والسياحة عبر rezervasyonyap.com.tr وrezervasyonyap.tr وreservationinturkey.com.",
+        "مامون تنمو كعلامة موثوقة — نبني علاقات طويلة الأمد."
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=900&fit=crop",
+      "highlights": [
+        {
+          "title": "منذ 2010",
+          "description": "نمو عميق ومستدام"
+        },
+        {
+          "title": "متعدد التخصصات",
+          "description": "تكامل العقارات والبناء والسياحة"
+        },
+        {
+          "title": "العمارة الأفقية",
+          "description": "مساحات معيشية حديثة منخفضة الكثافة"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "خبراتنا",
+      "title": "ثلاث ركائز، ثقة واحدة",
+      "subtitle": "خدمات متكاملة تضيف قيمة لمشاريعكم.",
+      "items": [
+        {
+          "slug": "emlak",
+          "title": "العقارات",
+          "shortDescription": "استشارات عقارية استراتيجية وإدارة استثمارات.",
+          "description": "استشارات شاملة. العمليات العقارية على www.mamonestate.com.",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+          "icon": "building-2",
+          "features": [
+            "استشارات عقارية",
+            "تحليل استثماري",
+            "إدارة المحفظة",
+            "خدمات التقييم"
+          ],
+          "websites": [
+            {
+              "label": "mamonestate.com",
+              "href": "https://www.mamonestate.com"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "slug": "insaat",
+          "title": "البناء",
+          "shortDescription": "مساحات معيشية مستدامة بالعمارة الأفقية.",
+          "description": "فلل ومشاريع منخفضة الكثافة متناغمة مع الطبيعة.",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+          "icon": "home",
+          "features": [
+            "مشاريع عمارة أفقية",
+            "فلل ومساكن",
+            "بناء تسليم مفتاح",
+            "إدارة المشاريع"
+          ],
+          "order": 2
+        },
+        {
+          "slug": "turizm",
+          "title": "السياحة",
+          "shortDescription": "خبرة في الاستثمارات السياحية.",
+          "description": "استشارات وتطوير منشآت سياحية. الحجز عبر rezervasyonyap.com.tr وrezervasyonyap.tr وreservationinturkey.com.",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "icon": "palmtree",
+          "features": [
+            "استشارات استثمار سياحي",
+            "تطوير المنشآت",
+            "منصات حجز",
+            "تحليل إقليمي"
+          ],
+          "websites": [
+            {
+              "label": "rezervasyonyap.com.tr",
+              "href": "https://www.rezervasyonyap.com.tr"
+            },
+            {
+              "label": "rezervasyonyap.tr",
+              "href": "https://www.rezervasyonyap.tr"
+            },
+            {
+              "label": "reservationinturkey.com",
+              "href": "https://www.reservationinturkey.com"
+            }
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "مامون بالأرقام",
+      "title": "الثقة بالأرقام",
+      "items": [
+        {
+          "value": "2010",
+          "label": "سنة التأسيس"
+        },
+        {
+          "value": "100",
+          "label": "مشاريع مكتملة",
+          "suffix": "+"
+        },
+        {
+          "value": "4",
+          "label": "قطاعات رئيسية"
+        },
+        {
+          "value": "15000",
+          "label": "عملاء سعداء",
+          "suffix": "+"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "مراجعنا",
+      "title": "مشاريع مميزة",
+      "subtitle": "مشاريع مختارة في العقارات والبناء والسياحة.",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=900&fit=crop",
+      "items": [
+        {
+          "id": "p1",
+          "title": "Mamon Residence",
+          "category": "insaat",
+          "location": "إسطنبول، تركيا",
+          "year": "2024",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+          "description": "مجمع فلل فاخر بالعمارة الأفقية.",
+          "featured": true
+        },
+        {
+          "id": "p2",
+          "title": "Ege Turizm Kompleksi",
+          "category": "turizm",
+          "location": "موغلا، تركيا",
+          "year": "2023",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+          "description": "مشروع سياحي متكامل مع فندق بوتيك.",
+          "featured": true
+        },
+        {
+          "id": "p3",
+          "title": "Merkez Plaza",
+          "category": "emlak",
+          "location": "أنقرة، تركيا",
+          "year": "2022",
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
+          "description": "استثمار عقاري تجاري من الدرجة A.",
+          "featured": true
+        },
+        {
+          "id": "p4",
+          "title": "Yeşil Vadi Villaları",
+          "category": "insaat",
+          "location": "بورصة، تركيا",
+          "year": "2021",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+          "description": "مشروع سكني منخفض الكثافة في الطبيعة.",
+          "featured": false
+        },
+        {
+          "id": "p5",
+          "title": "Akdeniz Resort",
+          "category": "turizm",
+          "location": "أنطاليا، تركيا",
+          "year": "2020",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "description": "فندق خمس نجوم ومنتجع صحي.",
+          "featured": false
+        },
+        {
+          "id": "p6",
+          "title": "Levent Ofis Kulesi",
+          "category": "emlak",
+          "location": "إسطنبول، تركيا",
+          "year": "2019",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+          "description": "تأجير وإدارة مكاتب فاخرة.",
+          "featured": false
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "لماذا مامون؟",
+      "title": "ثقة مؤسسية وعمق قطاعي",
+      "subtitle": "أكثر من 15 عاماً من الجودة والشفافية والقيمة طويلة الأمد.",
+      "items": [
+        {
+          "icon": "shield-check",
+          "title": "الموثوقية",
+          "description": "نبني الثقة منذ 2010."
+        },
+        {
+          "icon": "layers",
+          "title": "خدمة متكاملة",
+          "description": "نهج شامل تحت سقف واحد."
+        },
+        {
+          "icon": "compass",
+          "title": "خبرة العمارة الأفقية",
+          "description": "مساحات حديثة متناغمة مع الطبيعة."
+        },
+        {
+          "icon": "users",
+          "title": "فريق خبراء",
+          "description": "فريق متعدد التخصصات."
+        },
+        {
+          "icon": "trending-up",
+          "title": "قيمة مستدامة",
+          "description": "استراتيجيات عائد طويل الأمد."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "تركيز على العميل",
+          "description": "حلول مخصصة وتواصل شفاف."
+        }
+      ]
+    },
+    "cta": {
+      "title": "لنحقق مشروعكم معاً",
+      "subtitle": "تعرف على فريقنا الخبير.",
+      "buttonLabel": "استشارة مجانية",
+      "buttonHref": "/iletisim",
+      "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=600&fit=crop"
+    },
+    "contact": {
+      "address": "حي كيسيككapi، شارع تشارشي رقم 254، فتحية/موغلا",
+      "phone": "+90 532 397 79 57",
+      "email": "info@mamon.com.tr",
+      "mapEmbed": "",
+      "workingHours": "الاثنين – الجمعة: 09:00 – 18:00"
+    }
+  },
+  "footer": {
+    "tagline": "شريككم الموثوق منذ 2010.",
+    "copyright": "© 2026 Mamon. جميع الحقوق محفوظة.",
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  }
+}

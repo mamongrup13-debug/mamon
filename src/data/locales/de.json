@@ -1,0 +1,475 @@
+{
+  "settings": {
+    "companyName": "Mamon",
+    "domain": "mamon.com.tr",
+    "foundedYear": 2010,
+    "logoText": "MAMON",
+    "primaryPhone": "+90 532 397 79 57",
+    "primaryEmail": "info@mamon.com.tr"
+  },
+  "navigation": [
+    {
+      "label": "Startseite",
+      "href": "/"
+    },
+    {
+      "label": "Über uns",
+      "href": "/hakkimizda"
+    },
+    {
+      "label": "Leistungen",
+      "href": "/hizmetler"
+    },
+    {
+      "label": "Projekte",
+      "href": "/projeler"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/iletisim"
+    }
+  ],
+  "globalSeo": {
+    "title": "Mamon | Immobilien, Bau & Tourismus",
+    "description": "Ihr verlässlicher Partner für Immobilien, horizontalen Architekturbau und Tourismus seit 2010. mamon.com.tr",
+    "keywords": [
+      "mamon",
+      "Immobilien",
+      "Bau",
+      "Tourismus",
+      "horizontale Architektur",
+      "Immobilien",
+      "mamon.com.tr"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Startseite",
+      "seo": {
+        "title": "Mamon | Lösungen für Immobilien, Bau & Tourismus",
+        "description": "Unternehmensdienstleistungen in Immobilien, horizontaler Architektur und Tourismus seit 2010. Vertrauen, Qualität und nachhaltiger Wert."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "enabled": true
+        },
+        {
+          "id": "about-preview",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hakkimizda",
+      "title": "Über uns",
+      "seo": {
+        "title": "Über uns | Mamon",
+        "description": "Vertrauenswürdiger Unternehmensservice in Immobilien, Bau und Tourismus seit 2010."
+      },
+      "sections": [
+        {
+          "id": "about-full",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hizmetler",
+      "title": "Leistungen",
+      "seo": {
+        "title": "Unsere Leistungen | Mamon",
+        "description": "Immobilienberatung, horizontale Architekturprojekte und Tourismusinvestitionen — Mamons drei Kernbereiche."
+      },
+      "sections": [
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "projeler",
+      "title": "Projekte",
+      "seo": {
+        "title": "Unsere Projekte | Mamon",
+        "description": "Entdecken Sie unsere abgeschlossenen und laufenden Projekte in Immobilien, Bau und Tourismus."
+      },
+      "sections": [
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "iletisim",
+      "title": "Kontakt",
+      "seo": {
+        "title": "Kontakt | Mamon",
+        "description": "Kontaktieren Sie Mamon. Unser Expertenteam steht für Ihre Immobilien-, Bau- und Tourismusprojekte bereit."
+      },
+      "sections": [
+        {
+          "id": "contact",
+          "type": "contact",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "Ihr verlässlicher Partner seit 2010",
+      "title": "Unternehmens­exzellenz in\nImmobilien, Bau & Tourismus",
+      "subtitle": "Wir schaffen nachhaltigen Wert durch Projekte mit horizontaler Architektur, strategischen Immobilieninvestitionen und Tourismus-Know-how.",
+      "ctaPrimary": {
+        "label": "Unsere Leistungen entdecken",
+        "href": "/hizmetler"
+      },
+      "ctaSecondary": {
+        "label": "Kontakt",
+        "href": "/iletisim"
+      },
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "Jahre Erfahrung"
+        },
+        {
+          "value": "120+",
+          "label": "Abgeschlossene Projekte"
+        },
+        {
+          "value": "3",
+          "label": "Kernleistungsbereiche"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Unternehmensidentität",
+      "title": "Langfristigen Wert auf Vertrauen aufbauen",
+      "paragraphs": [
+        "Mamon ist ein etabliertes Unternehmen in Immobilien, Bau und Tourismus seit 2010. Transparenz, Qualität und Kundenzufriedenheit stehen bei jedem Projekt im Vordergrund.",
+        "Mit horizontaler Architektur gestalten wir nachhaltige Wohnräume; Immobilien über mamonestate.com, Tourismus über rezervasyonyap.com.tr, rezervasyonyap.tr und reservationinturkey.com.",
+        "Heute wächst Mamon als vertrauenswürdige Marke — weil wir in allem langfristige Beziehungen anstreben."
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=900&fit=crop",
+      "highlights": [
+        {
+          "title": "Seit 2010",
+          "description": "Tief verwurzeltes und nachhaltiges Wachstum"
+        },
+        {
+          "title": "Multidisziplinär",
+          "description": "Integration von Immobilien, Bau und Tourismus"
+        },
+        {
+          "title": "Horizontale Architektur",
+          "description": "Moderne Wohnräume mit geringer Dichte"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Unsere Expertise",
+      "title": "Drei Säulen, ein Vertrauen",
+      "subtitle": "Wir steigern den Wert Ihrer Projekte mit integrierten Dienstleistungen in Immobilien, Bau und Tourismus.",
+      "items": [
+        {
+          "slug": "emlak",
+          "title": "Immobilien",
+          "shortDescription": "Strategische Immobilienberatung und Investmentmanagement.",
+          "description": "Umfassende Beratung für Wohn-, Gewerbe- und Grundstücks­investitionen. Marktanalyse, Bewertung, Portfoliomanagement und Vermietung. Immobilien unter www.mamonestate.com.",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+          "icon": "building-2",
+          "features": [
+            "Immobilienberatung",
+            "Investitionsanalyse",
+            "Portfoliomanagement",
+            "Bewertungsdienstleistungen"
+          ],
+          "websites": [
+            {
+              "label": "mamonestate.com",
+              "href": "https://www.mamonestate.com"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "slug": "insaat",
+          "title": "Bau",
+          "shortDescription": "Moderne, nachhaltige Wohnräume mit horizontaler Architektur.",
+          "description": "Villen, Residenzen und Mischnutzungsprojekte mit horizontaler Architektur — naturnah und hochwertig.",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+          "icon": "home",
+          "features": [
+            "Horizontale Architekturprojekte",
+            "Villen & Residenzen",
+            "Schlüsselfertiger Bau",
+            "Projektmanagement"
+          ],
+          "order": 2
+        },
+        {
+          "slug": "turizm",
+          "title": "Tourismus",
+          "shortDescription": "Expertise in Tourismusinvestitionen und Gastgewerbe.",
+          "description": "Investitionsberatung und Projektentwicklung für Tourismusanlagen, Boutique-Hotels und Ferienwohnungen. Buchungen über www.rezervasyonyap.com.tr, www.rezervasyonyap.tr und www.reservationinturkey.com.",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "icon": "palmtree",
+          "features": [
+            "Tourismus-Investitionsberatung",
+            "Anlagenentwicklung",
+            "Online-Buchungsplattformen",
+            "Regionale Analyse"
+          ],
+          "websites": [
+            {
+              "label": "rezervasyonyap.com.tr",
+              "href": "https://www.rezervasyonyap.com.tr"
+            },
+            {
+              "label": "rezervasyonyap.tr",
+              "href": "https://www.rezervasyonyap.tr"
+            },
+            {
+              "label": "reservationinturkey.com",
+              "href": "https://www.reservationinturkey.com"
+            }
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Mamon in Zahlen",
+      "title": "Vertrauen in Zahlen",
+      "items": [
+        {
+          "value": "2010",
+          "label": "Gründungsjahr"
+        },
+        {
+          "value": "100",
+          "label": "Abgeschlossene Projekte",
+          "suffix": "+"
+        },
+        {
+          "value": "4",
+          "label": "Kernsektoren"
+        },
+        {
+          "value": "15000",
+          "label": "Zufriedene Kunden",
+          "suffix": "+"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Unsere Referenzen",
+      "title": "Ausgewählte Projekte",
+      "subtitle": "Ausgewählte Projekte in Immobilien, Bau und Tourismus.",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=900&fit=crop",
+      "items": [
+        {
+          "id": "p1",
+          "title": "Mamon Residence",
+          "category": "insaat",
+          "location": "Istanbul, Türkei",
+          "year": "2024",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+          "description": "Luxus-Villenkomplex mit horizontaler Architektur.",
+          "featured": true
+        },
+        {
+          "id": "p2",
+          "title": "Ege Turizm Kompleksi",
+          "category": "turizm",
+          "location": "Muğla, Türkei",
+          "year": "2023",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+          "description": "Integriertes Tourismusprojekt mit Boutique-Hotel und Ferienwohnungen.",
+          "featured": true
+        },
+        {
+          "id": "p3",
+          "title": "Merkez Plaza",
+          "category": "emlak",
+          "location": "Ankara, Türkei",
+          "year": "2022",
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
+          "description": "Gewerbeimmobilien-Investition und -management der Klasse A.",
+          "featured": true
+        },
+        {
+          "id": "p4",
+          "title": "Yeşil Vadi Villaları",
+          "category": "insaat",
+          "location": "Bursa, Türkei",
+          "year": "2021",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+          "description": "Wohnprojekt mit geringer Dichte in der Natur.",
+          "featured": false
+        },
+        {
+          "id": "p5",
+          "title": "Akdeniz Resort",
+          "category": "turizm",
+          "location": "Antalya, Türkei",
+          "year": "2020",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "description": "Fünf-Sterne-Hotel- und Spa-Komplex.",
+          "featured": false
+        },
+        {
+          "id": "p6",
+          "title": "Levent Ofis Kulesi",
+          "category": "emlak",
+          "location": "Istanbul, Türkei",
+          "year": "2019",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+          "description": "Premium-Büroflächen-Vermietung und -management.",
+          "featured": false
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Warum Mamon?",
+      "title": "Unternehmensvertrauen, Branchentiefe",
+      "subtitle": "Mit über 15 Jahren Erfahrung liefern wir Qualität, Transparenz und langfristigen Wert.",
+      "items": [
+        {
+          "icon": "shield-check",
+          "title": "Zuverlässigkeit",
+          "description": "Vertrauen durch Reputation und Referenzen seit 2010."
+        },
+        {
+          "icon": "layers",
+          "title": "Integrierter Service",
+          "description": "Ganzheitlicher Ansatz unter einem Dach."
+        },
+        {
+          "icon": "compass",
+          "title": "Expertise horizontale Architektur",
+          "description": "Moderne, nachhaltige Wohnräume im Einklang mit der Natur."
+        },
+        {
+          "icon": "users",
+          "title": "Expertenteam",
+          "description": "Multidisziplinäres Team erfahrener Fachleute."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Wertorientiert",
+          "description": "Strategien für langfristige, messbare Renditen."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Kundenorientierung",
+          "description": "Personalisierte Lösungen und transparente Kommunikation."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihr Projekt gemeinsam verwirklichen",
+      "subtitle": "Lernen Sie unser Team für Ihre Immobilien-, Bau- oder Tourismusprojekte kennen.",
+      "buttonLabel": "Kostenlose Beratung",
+      "buttonHref": "/iletisim",
+      "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=600&fit=crop"
+    },
+    "contact": {
+      "address": "Kesikkapı Mahallesi, Çarşı Caddesi, No:254, Fethiye/Muğla",
+      "phone": "+90 532 397 79 57",
+      "email": "info@mamon.com.tr",
+      "mapEmbed": "",
+      "workingHours": "Montag – Freitag: 09:00 – 18:00"
+    }
+  },
+  "footer": {
+    "tagline": "Ihr verlässlicher Partner in Immobilien, Bau und Tourismus seit 2010.",
+    "copyright": "© 2026 Mamon. Alle Rechte vorbehalten.",
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,475 @@
+{
+  "settings": {
+    "companyName": "Mamon",
+    "domain": "mamon.com.tr",
+    "foundedYear": 2010,
+    "logoText": "MAMON",
+    "primaryPhone": "+90 532 397 79 57",
+    "primaryEmail": "info@mamon.com.tr"
+  },
+  "navigation": [
+    {
+      "label": "Ana Sayfa",
+      "href": "/"
+    },
+    {
+      "label": "Hakkımızda",
+      "href": "/hakkimizda"
+    },
+    {
+      "label": "Hizmetler",
+      "href": "/hizmetler"
+    },
+    {
+      "label": "Projeler",
+      "href": "/projeler"
+    },
+    {
+      "label": "İletişim",
+      "href": "/iletisim"
+    }
+  ],
+  "globalSeo": {
+    "title": "Mamon | Emlak, İnşaat ve Turizm",
+    "description": "2010'dan bu yana emlak, yatay mimari inşaat ve turizm alanlarında güvenilir çözüm ortağınız. mamon.com.tr",
+    "keywords": [
+      "mamon",
+      "emlak",
+      "inşaat",
+      "turizm",
+      "yatay mimari",
+      "gayrimenkul",
+      "mamon.com.tr"
+    ],
+    "ogImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=630&fit=crop"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Ana Sayfa",
+      "seo": {
+        "title": "Mamon | Emlak, İnşaat ve Turizm Çözümleri",
+        "description": "2010'dan bu yana emlak, yatay mimari inşaat ve turizm alanlarında kurumsal hizmet. Güven, kalite ve sürdürülebilir değer."
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "enabled": true
+        },
+        {
+          "id": "about-preview",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hakkimizda",
+      "title": "Hakkımızda",
+      "seo": {
+        "title": "Hakkımızda | Mamon",
+        "description": "2010 yılından bu yana emlak, inşaat ve turizm sektörlerinde güvenilir kurumsal hizmet anlayışı."
+      },
+      "sections": [
+        {
+          "id": "about-full",
+          "type": "about",
+          "enabled": true
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "hizmetler",
+      "title": "Hizmetler",
+      "seo": {
+        "title": "Hizmetlerimiz | Mamon",
+        "description": "Emlak danışmanlığı, yatay mimari inşaat projeleri ve turizm yatırımları — Mamon'un üç ana hizmet alanı."
+      },
+      "sections": [
+        {
+          "id": "services",
+          "type": "services",
+          "enabled": true
+        },
+        {
+          "id": "whyUs",
+          "type": "whyUs",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "projeler",
+      "title": "Projeler",
+      "seo": {
+        "title": "Projelerimiz | Mamon",
+        "description": "Tamamlanan ve devam eden emlak, inşaat ve turizm projelerimizi keşfedin."
+      },
+      "sections": [
+        {
+          "id": "projects",
+          "type": "projects",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "slug": "iletisim",
+      "title": "İletişim",
+      "seo": {
+        "title": "İletişim | Mamon",
+        "description": "Mamon ile iletişime geçin. Emlak, inşaat ve turizm projeleriniz için uzman ekibimiz yanınızda."
+      },
+      "sections": [
+        {
+          "id": "contact",
+          "type": "contact",
+          "enabled": true
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "sections": {
+    "hero": {
+      "eyebrow": "2010'dan Bu Yana Güvenilir Çözüm Ortağınız",
+      "title": "Emlak, İnşaat ve Turizmde\nKurumsal Mükemmellik",
+      "subtitle": "Yatay mimari anlayışıyla hayata geçirdiğimiz projeler, stratejik emlak yatırımları ve turizm alanındaki deneyimimizle sürdürülebilir değer üretiyoruz.",
+      "ctaPrimary": {
+        "label": "Hizmetlerimizi Keşfedin",
+        "href": "/hizmetler"
+      },
+      "ctaSecondary": {
+        "label": "Bize Ulaşın",
+        "href": "/iletisim"
+      },
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "120+",
+          "label": "Tamamlanan Proje"
+        },
+        {
+          "value": "3",
+          "label": "Ana Hizmet Alanı"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Kurumsal Kimlik",
+      "title": "Güvene Dayalı, Uzun Vadeli Değer Yaratıyoruz",
+      "paragraphs": [
+        "Mamon, 2010 yılından bu yana emlak, inşaat ve turizm sektörlerinde faaliyet gösteren, köklü deneyime sahip bir kurumsal yapıdır. Her projede şeffaflık, kalite ve müşteri memnuniyetini ön planda tutuyoruz.",
+        "Yatay mimari yaklaşımımızla doğaya saygılı, sürdürülebilir ve modern yaşam alanları tasarlıyor; emlak faaliyetlerimizi mamonestate.com üzerinden, turizm operasyonlarımızı ise rezervasyonyap.com.tr, rezervasyonyap.tr ve reservationinturkey.com platformları üzerinden sürdürüyoruz.",
+        "Bugün Mamon, sektörün güvenilir markalarından biri olarak büyümeye devam ediyor — çünkü her işimizde uzun vadeli ilişkiler kurmayı hedefliyoruz."
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=900&fit=crop",
+      "highlights": [
+        {
+          "title": "2010'dan Beri",
+          "description": "Sektörde köklü ve sürdürülebilir büyüme"
+        },
+        {
+          "title": "Çok Disiplinli",
+          "description": "Emlak, inşaat ve turizm entegrasyonu"
+        },
+        {
+          "title": "Yatay Mimari",
+          "description": "Modern, düşük yoğunluklu yaşam alanları"
+        }
+      ]
+    },
+    "services": {
+      "eyebrow": "Uzmanlık Alanlarımız",
+      "title": "Üç Sütun, Tek Güven",
+      "subtitle": "Emlak, inşaat ve turizm alanlarında entegre hizmet anlayışıyla projelerinize değer katıyoruz.",
+      "items": [
+        {
+          "slug": "emlak",
+          "title": "Emlak",
+          "shortDescription": "Stratejik gayrimenkul danışmanlığı ve yatırım yönetimi.",
+          "description": "Konut, ticari ve arsa yatırımlarında kapsamlı danışmanlık hizmeti sunuyoruz. Pazar analizi, değerleme, portföy yönetimi ve satış-kiralama süreçlerinde uzman ekibimizle yanınızdayız. Emlak faaliyetlerimizi www.mamonestate.com üzerinden yürütüyoruz.",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop",
+          "icon": "building-2",
+          "features": [
+            "Gayrimenkul danışmanlığı",
+            "Yatırım analizi",
+            "Portföy yönetimi",
+            "Değerleme hizmetleri"
+          ],
+          "websites": [
+            {
+              "label": "mamonestate.com",
+              "href": "https://www.mamonestate.com"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "slug": "insaat",
+          "title": "İnşaat",
+          "shortDescription": "Yatay mimari ile modern, sürdürülebilir yaşam alanları.",
+          "description": "Yatay mimari anlayışıyla villa, rezidans ve karma kullanım projeleri geliştiriyoruz. Doğayla uyumlu, düşük yoğunluklu ve yüksek yaşam kalitesi sunan projeler tasarlıyor ve hayata geçiriyoruz.",
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+          "icon": "home",
+          "features": [
+            "Yatay mimari projeler",
+            "Villa & rezidans",
+            "Anahtar teslim inşaat",
+            "Proje yönetimi"
+          ],
+          "order": 2
+        },
+        {
+          "slug": "turizm",
+          "title": "Turizm",
+          "shortDescription": "Turizm yatırımları ve konaklama projelerinde uzmanlık.",
+          "description": "Turizm tesisleri, butik oteller ve tatil konutları alanında yatırım danışmanlığı ve proje geliştirme hizmetleri sunuyoruz. Rezervasyon ve turizm operasyonlarımızı www.rezervasyonyap.com.tr, www.rezervasyonyap.tr ve www.reservationinturkey.com platformları üzerinden yürütüyoruz.",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "icon": "palmtree",
+          "features": [
+            "Turizm yatırım danışmanlığı",
+            "Tesis geliştirme",
+            "Online rezervasyon platformları",
+            "Bölgesel analiz"
+          ],
+          "websites": [
+            {
+              "label": "rezervasyonyap.com.tr",
+              "href": "https://www.rezervasyonyap.com.tr"
+            },
+            {
+              "label": "rezervasyonyap.tr",
+              "href": "https://www.rezervasyonyap.tr"
+            },
+            {
+              "label": "reservationinturkey.com",
+              "href": "https://www.reservationinturkey.com"
+            }
+          ],
+          "order": 3
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Rakamlarla Mamon",
+      "title": "Güvenin Sayılarla Kanıtı",
+      "items": [
+        {
+          "value": "2010",
+          "label": "Kuruluş Yılı"
+        },
+        {
+          "value": "100",
+          "label": "Tamamlanan Proje",
+          "suffix": "+"
+        },
+        {
+          "value": "4",
+          "label": "Ana Sektör"
+        },
+        {
+          "value": "15000",
+          "label": "Mutlu Müşteri",
+          "suffix": "+"
+        }
+      ]
+    },
+    "projects": {
+      "eyebrow": "Referanslarımız",
+      "title": "Öne Çıkan Projeler",
+      "subtitle": "Emlak, inşaat ve turizm alanlarında hayata geçirdiğimiz seçili projeler.",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&h=900&fit=crop",
+      "items": [
+        {
+          "id": "p1",
+          "title": "Mamon Residence",
+          "category": "insaat",
+          "location": "İstanbul, Türkiye",
+          "year": "2024",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+          "description": "Yatay mimari konseptiyle tasarlanmış lüks villa kompleksi.",
+          "featured": true
+        },
+        {
+          "id": "p2",
+          "title": "Ege Turizm Kompleksi",
+          "category": "turizm",
+          "location": "Muğla, Türkiye",
+          "year": "2023",
+          "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&h=600&fit=crop",
+          "description": "Butik otel ve tatil konutlarından oluşan entegre turizm projesi.",
+          "featured": true
+        },
+        {
+          "id": "p3",
+          "title": "Merkez Plaza",
+          "category": "emlak",
+          "location": "Ankara, Türkiye",
+          "year": "2022",
+          "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
+          "description": "A sınıfı ticari gayrimenkul yatırım ve yönetim projesi.",
+          "featured": true
+        },
+        {
+          "id": "p4",
+          "title": "Yeşil Vadi Villaları",
+          "category": "insaat",
+          "location": "Bursa, Türkiye",
+          "year": "2021",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+          "description": "Doğayla bütünleşen düşük yoğunluklu konut projesi.",
+          "featured": false
+        },
+        {
+          "id": "p5",
+          "title": "Akdeniz Resort",
+          "category": "turizm",
+          "location": "Antalya, Türkiye",
+          "year": "2020",
+          "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop",
+          "description": "5 yıldızlı otel ve spa kompleksi turizm yatırımı.",
+          "featured": false
+        },
+        {
+          "id": "p6",
+          "title": "Levent Ofis Kulesi",
+          "category": "emlak",
+          "location": "İstanbul, Türkiye",
+          "year": "2019",
+          "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop",
+          "description": "Premium ofis alanı kiralama ve yönetim projesi.",
+          "featured": false
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Neden Mamon?",
+      "title": "Kurumsal Güven, Sektörel Derinlik",
+      "subtitle": "15 yılı aşkın deneyimimizle her projede kalite, şeffaflık ve uzun vadeli değer sunuyoruz.",
+      "items": [
+        {
+          "icon": "shield-check",
+          "title": "Güvenilirlik",
+          "description": "2010'dan bu yana sektörde edindiğimiz itibar ve referanslarla güven inşa ediyoruz."
+        },
+        {
+          "icon": "layers",
+          "title": "Entegre Hizmet",
+          "description": "Emlak, inşaat ve turizm alanlarını tek çatı altında birleştiren bütüncül yaklaşım."
+        },
+        {
+          "icon": "compass",
+          "title": "Yatay Mimari Uzmanlığı",
+          "description": "Modern, sürdürülebilir ve doğayla uyumlu yaşam alanları tasarlıyoruz."
+        },
+        {
+          "icon": "users",
+          "title": "Uzman Ekip",
+          "description": "Her alanda deneyimli profesyonellerden oluşan multidisipliner kadro."
+        },
+        {
+          "icon": "trending-up",
+          "title": "Değer Odaklı",
+          "description": "Yatırımlarınıza uzun vadeli ve ölçülebilir getiri sağlayan stratejiler."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Müşteri Odaklılık",
+          "description": "Her projede kişiselleştirilmiş çözümler ve şeffaf iletişim."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Projenizi Birlikte Hayata Geçirelim",
+      "subtitle": "Emlak, inşaat veya turizm alanındaki projeleriniz için uzman ekibimizle tanışın.",
+      "buttonLabel": "Ücretsiz Danışmanlık Alın",
+      "buttonHref": "/iletisim",
+      "backgroundImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&h=600&fit=crop"
+    },
+    "contact": {
+      "address": "Kesikkapı Mahallesi, Çarşı Caddesi, No:254, Fethiye/Muğla",
+      "phone": "+90 532 397 79 57",
+      "email": "info@mamon.com.tr",
+      "mapEmbed": "",
+      "workingHours": "Pazartesi – Cuma: 09:00 – 18:00"
+    }
+  },
+  "footer": {
+    "tagline": "2010'dan bu yana emlak, inşaat ve turizm alanlarında güvenilir çözüm ortağınız.",
+    "copyright": "© 2026 Mamon. Tüm hakları saklıdır.",
+    "social": [
+      {
+        "platform": "linkedin",
+        "href": "https://linkedin.com"
+      },
+      {
+        "platform": "instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "facebook",
+        "href": "https://facebook.com"
+      }
+    ]
+  }
+}
